@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Details</title>
+</head>
+
+<body style="text-align: center;">
+
+    <div class="main-2">
+        <h2>{{data.name}}</h2>
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td style="font-weight: bold;">Status: </td>
+                    <td>
+                        {% if data.is_closed %}
+                        <button>Closed</button>
+                        {% else %}
+                        <button style="background: green;">Open Now</button>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Address: </td>
+                    <td>{{data.location.address1}}</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Transactions Supported: </td>
+                    <td>{{data.transactions[0]}}</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Category: </td>
+                    <td>{{data.categories[0], data.categories[0]}}</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Phone Number: </td>
+                    <td>{{data.phone}}</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Price: </td>
+                    <td>{{data.price}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <div class="graph">
+            <img src="{{data.image_url}}" class="graph_image">
+        </div>
+    </div>
+
+</body>
+
+</html>

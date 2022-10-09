@@ -1,0 +1,228 @@
+.banner {
+  top: 0;
+  left: 0;
+  width: 40rem;
+  margin: auto;
+  height: fit-content;
+  color: aliceblue;
+  text-indent: 20px;
+  padding-bottom: 2rem;
+  background-image: url("../images/banner.jpeg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.main.label {
+  text-indent: 10px;
+}
+
+input[type="text"] {
+  width: 80%;
+  /* padding: 12px 20px; */
+  margin: 8px 3;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  text-indent: 10px;
+}
+
+select {
+  /* padding: 12px 20px; */
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"],
+select {
+  /* padding: 12px 20px; */
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.main {
+  border-radius: 5px;
+  background-color: #fff9f9;
+  width: 40rem;
+  margin: auto;
+}
+
+.main label {
+  /* padding: 1rem; */
+  color: rgb(38, 119, 211);
+  text-indent: 5px;
+  margin: 10px;
+}
+
+.main .back {
+  /* background-image: url("../images/b.jpg");
+    color: white; */
+  text-align: center;
+}
+.mid-le {
+  display: inline-block;
+}
+.main .submit {
+  display: inline-block;
+  text-align: left;
+}
+
+.main .submit .but1 {
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.main .but11 {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.list .but2 {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.list {
+  text-align: center;
+  border: 1px solid black;
+  margin: inherit;
+  margin: 1rem;
+  background-color: white;
+}
+
+.main-1 h2 {
+  text-align: left;
+  margin: 1rem;
+}
+
+.main-1 table a {
+  background-color: #750308;
+  color: white;
+}
+
+.header img {
+  float: right;
+  width: 15rem;
+  margin: 3rem;
+  margin-right: 10rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-2 {
+  text-align: center;
+  margin: 3rem;
+}
+
+.main-2 h2 {
+  text-align: left;
+  margin: 1rem;
+  padding-top: 10rem;
+}
+
+.main-2 img {
+  float: right;
+  width: 15rem;
+}
+
+.main-2 a {
+  float: left;
+  margin-top: 2rem;
+  border-radius: 10px;
+  width: 7rem;
+  border: 2px solid black;
+  color: black;
+}
+
+.main-2 a:hover {
+  background-color: bisque;
+}
+
+.main-2 .graph img {
+  width: 30rem;
+  height: 25rem;
+}
+
+.main-2 .graph a {
+  background-color: #750308;
+  color: white;
+  margin: 1rem;
+  width: 6rem;
+}
+
+.main-2 .graph a:hover {
+  background-color: green;
+}
+
+.main-2 .graph .result {
+  text-align: center;
+}
+
+.main-2 .graph button {
+  height: 2rem;
+  border-radius: 10px;
+  margin: 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: orangered;
+  color: white;
+}
+thead {
+  background-color: rgb(61, 115, 216);
+  font-size: large;
+}
+
+/* .main-1 table a{
+  background-color: #750308;
+  color: white;
+} */
+/* 
+.header img{
+  float: right;
+  width: 15rem;
+  margin: 3rem;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
